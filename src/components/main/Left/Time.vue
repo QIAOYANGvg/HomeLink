@@ -11,6 +11,7 @@ const events = [
 // 判断事件是否为焦点事件
 const isActive = (event: { title: string }) => {
     // 这里可以根据实际需求判断是否为焦点事件，暂时返回 false
+    console.log(event.title);
     return false;
 };
 </script>
